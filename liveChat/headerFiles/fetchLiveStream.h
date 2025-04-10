@@ -1,0 +1,1 @@
+char* fetchLiveStreamId(char* token);
