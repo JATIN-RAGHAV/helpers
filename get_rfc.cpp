@@ -40,7 +40,7 @@ size_t write_call_back(void* contents, size_t size, size_t nmemb, std::string* o
 }
 
 std::string get_rfc(int num){
-	std::stringstream url_stream;https://www.rfc-editor.org/rfc/rfc120.txt
+	std::stringstream url_stream; // https://www.rfc-editor.org/rfc/rfc120.txt
 	url_stream << "https://www.rfc-editor.org/rfc/rfc" << num << ".txt";
 
 	CURL* curl = curl_easy_init();
